@@ -153,7 +153,7 @@ body {
   text-transform: uppercase;
   color: var(--fourth-accent-color);
   text-align: center;
-  padding: 200px 252px 30px 252px;
+  width: 696px;
 }
 
 .hero {
@@ -161,7 +161,7 @@ body {
   text-align: center;
 }
 .hero-container {
-  padding-bottom: 200px;
+  padding: 200px 252px 200px 252px;
 }
 
 .modal-btn {
@@ -176,6 +176,7 @@ body {
   cursor: pointer;
   padding: 10px 32px;
   display: inline-block;
+  margin-top: 30px;
 }
 
 .modal-btn:hover,
@@ -205,7 +206,6 @@ body {
 
 .features-list {
   display: flex;
-  padding-top: 94px;
 }
 
 .features-list-item:not(:last-child) {
@@ -245,6 +245,7 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .our-team-list-position {
@@ -263,12 +264,12 @@ body {
 .our-team-list {
   display: flex;
   margin-left: -30px;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .our-team-list-item {
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
 
@@ -276,9 +277,9 @@ body {
   background: #f5f4fa;
 }
 
-.our-team-list-name {
-  margin-bottom: 10px;
-  margin-top: 30px;
+.our-team-list-content {
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 /* ============= END Our team=============*/
@@ -324,6 +325,9 @@ body {
   margin-top: 20px;
 }
 
+.addres-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
 /* ============= END Footer=============*/
 
 /* ============= Portfolio Navigation Buttons=============*/
