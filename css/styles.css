@@ -154,6 +154,7 @@ body {
   color: var(--fourth-accent-color);
   text-align: center;
   width: 696px;
+  margin: 0 auto;
 }
 
 .hero {
@@ -161,7 +162,7 @@ body {
   text-align: center;
 }
 .hero-container {
-  padding: 200px 252px 200px 252px;
+  padding: 200px 0 200px 0;
 }
 
 .modal-btn {
